@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+.test-main {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  background-color: antiquewhite;
+}
+.section-a {
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  width: 50px;
+  height: 50px;
+
+  background-color: aqua;
+}
+.box1 {
+  background-color: green;
+}
+.box2 {
+  background-color: red;
+}
+.box3 {
+  background-color: blue;
+}
+.big-box2 {
+}
+
+.big-box2 .box1 {
+  background-color: black;
+}
+.big-box2 .box2 {
+  background-color: navajowhite;
+}
+.big-box2 .box3 {
+  background-color: pink;
+}

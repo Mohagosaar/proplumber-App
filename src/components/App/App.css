@@ -1,112 +1,99 @@
-html,
-body,
-#react-root {
-  height: 100%;
-}
-
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0px;
-}
-
-img {
-  display: inline-block;
-  max-width: 100%;
-}
-
-/* --------------------------------------------------------------------------------
-Container
--------------------------------------------------------------------------------- */
-
-.container {
-  padding: 20px;
-}
-
-/* --------------------------------------------------------------------------------
-Button
--------------------------------------------------------------------------------- */
-
-.btn {
-  display: inline-block;
-  padding: 10px 20px;
-  border-color: #014041;
-  border-width: 1px 1px 3px;
-  border-radius: 4px;
-  background-color: #00acb0;
-  color: #f8f8f8;
-  font-size: 1.1rem;
-  outline: 0;
-  cursor: pointer;
-}
-
-.btn_sizeMin {
-  min-height: 50px;
-  min-width: 100px;
-}
-
-.btn_sizeSm {
-  padding: 10px 15px;
-  font-size: 0.8rem;
-}
-
-.btn_sizeFull {
-  display: block;
-  width: 100%;
-}
-
-.btn:hover {
-  background-color: #008183;
-  text-decoration: none;
-}
-
-/* This line makes the "Register" and "Login" buttons look like links */
-.btn_asLink {
+* {
+  margin: 0;
   padding: 0;
-  border-width: 0;
-  border-bottom: 1px solid #444;
-  border-radius: 0;
-  background: none;
-  font: inherit;
-  color: #444;
+}
+body {
+  width: 100vw;
+  height: 100vh;
 }
 
-.btn_asLink:hover {
-  background-color: transparent;
-  border-color: #008183;
-  color: #008183;
+/* User registration form style */
+.singup {
+  display: flex;
+  flex-direction: row;
+  background-color: #efe9e9;
+  height: 550px;
+  width: 100%;
+  box-shadow: 0px 0px 10px 10px rgb(212, 212, 212);
 }
 
-/* --------------------------------------------------------------------------------
-Alert
--------------------------------------------------------------------------------- */
-
-.alert {
-  box-sizing: border-box;
-  padding: 15px 10px;
-  margin: 15px 0;
-  border: 2px solid #e01616;
-  background-color: #efefef;
-  border-radius: 3px;
-  color: #e01616;
-  font-size: 0.8rem;
+.form-group {
+  display: flex;
 }
 
-/* --------------------------------------------------------------------------------
-Form Treatment
--------------------------------------------------------------------------------- */
-
-.formPanel {
-  box-sizing: border-box;
-  width: 400px;
-  max-width: 100%;
-  padding: 25px;
-  margin: 0 auto 20px;
-  background-color: #efefef;
-  border-radius: 3px;
-  box-shadow: 0 1px 2px rgb(0, 0, 0, 0.4);
+.singup .section-a {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 30px;
+  flex-direction: column;
+  align-items: center; /* Center the form horizontally */
 }
 
-input {
-  margin: 5px;
+/* sectin section-b is the input field sections*/
+.input-fields {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.input-fields input {
+  border-radius: 5px;
+  font-family: "Open sans", sans-serif;
+  border: none;
+  padding: 10px;
+  text-align: left;
+  width: 100%;
   margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .container .userRegistrationForm {
+    width: 50%;
+  }
+
+  .input-fields input {
+    width: 100%; /* Use full width for inputs on larger screens */
+    max-width: 300px; /* Limit the maximum width of inputs */
+    min-width: 5px;
+  }
+}
+.section-b {
+  margin-left: 70px;
+  margin-top: 60px;
+  width: 580px;
+  text-align: left;
+}
+.checkbox-field {
+  display: flex;
+  flex-direction: column;
+}
+.check {
+  margin-bottom: 5px;
+  padding-left: 30px;
+}
+.check label {
+  margin-left: 10px;
+}
+.section-c img {
+  width: 357px;
+  margin-left: 10px;
+  margin-top: 0px;
+}
+.term {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.signupbtn {
+  padding: 5px;
+  margin-left: 10px;
+  margin-top: 20px;
+  width: 120px;
+}
+.error {
+  color: red;
+}
+.already {
+  margin-top: 20px;
+  margin-left: -20px;
 }
