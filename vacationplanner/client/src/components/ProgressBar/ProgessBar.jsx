@@ -1,9 +1,5 @@
 const ProgressBar = () => {
-  return (
-    <div>
-      <h1>Mohamed Ali</h1>
-    </div>
-  );
+  return <div></div>;
 };
 
 export default ProgressBar;

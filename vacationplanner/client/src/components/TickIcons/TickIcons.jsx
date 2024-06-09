@@ -1,9 +1,5 @@
 const TickIcons = () => {
-  return (
-    <div>
-      <h1>Mohamed Ali</h1>
-    </div>
-  );
+  return <div></div>;
 };
 
 export default TickIcons;

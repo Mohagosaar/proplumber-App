@@ -1,0 +1,69 @@
+body {
+  background-color: beige;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  font-family: "Gilroy", sans-serif;
+}
+
+.app {
+  background-color: white;
+  box-shadow: 0px 0px 10px 10px rgb(249, 241, 222);
+  box-shadow: rgba(0, 0, 0, 0.05) 0 6px 24px, rgba(0, 0, 0, 0.08) 0 0 0 1px;
+  padding: 30px;
+  width: 850px;
+  margin-top: 150px;
+}
+/* List Header */
+.list-hdeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: rgba(193, 193, 193, 0.5) 1px solid;
+}
+.btn-container,
+.info-container {
+  display: flex;
+  align-items: center;
+}
+.btn-container button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  /* border-radius: 10px; */
+  background-color: transparent;
+  cursor: pointer;
+}
+/* List Items */
+.list-items {
+  width: 100%;
+  margin: 20px 0;
+  margin-left: 10px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 0 1px;
+  font-family: "Open sans";
+  display: flex;
+  justify-content: space-between;
+}
+.btn-container .btn-edit {
+  border: 1.5px solid rgb(141, 181, 145);
+  color: rgb(255, 255, 255);
+  background-color: rgb(141, 181, 145);
+  font-size: 1rem;
+}
+.btn-container .btn-delete {
+  border: 1.5px solid rgb(246, 232, 232);
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 175, 163);
+  font-size: 1rem;
+}
+.list-items p {
+  margin-left: 10px;
+  font-size: 1.2rem;
+  color: black;
+}
+.btn-container .btn-delete button {
+  color: blue;
+}
+.tick {
+  font-size: 2 rem;
+}
