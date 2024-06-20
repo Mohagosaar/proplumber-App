@@ -1,0 +1,16 @@
+body {
+  background-color: #3f98f8;
+  background-size: cover; /* This ensures the image covers the entire background */
+  background-position: center; /* This centers the background image */
+}
+.landing-page {
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  font-family: "Gilroy", sans-serif;
+  text-shadow: 2px 2px 4px rgba(227, 227, 227, 0.5);
+}
+
+.landing-page .btn-primary {
+  background-color: #6db0f8;
+  border: none;
+}

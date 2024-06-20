@@ -1,0 +1,45 @@
+/* Moduls */
+.overley {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(155, 155, 155, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modul {
+  width: 700px;
+  background-color: rgba(255, 255, 255);
+  padding: 40px;
+  box-shadow: rgba(182, 182, 182, 0.5) 0 6px 24px 0,
+    rgb(179, 179, 179) 0 0 0 1px;
+}
+
+.modul .from-groups {
+  display: flex;
+  justify-content: space-between;
+}
+.modul .from-groups button {
+  border: none;
+  background-color: transparent;
+}
+.modul .from-groups button:active {
+  color: rgba(255, 50, 50);
+}
+.modul form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  margin: 11px 0;
+  padding: 12px 16px;
+  border: 1.5px solid rgba(230, 232, 236);
+  font-size: 1.2rem;
+}
+
+#submit:hover {
+  background-color: rgba(22, 543, 67);
+}
